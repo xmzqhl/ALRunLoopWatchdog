@@ -14,6 +14,7 @@
 		D024B9CA1BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9C91BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.m */; };
 		D024B9D41BE080910011E381 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9D31BE080910011E381 /* RootViewController.m */; };
 		D0D902281BE0A36A00B3B445 /* ALRunLoopWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D902271BE0A36A00B3B445 /* ALRunLoopWatchdog.m */; };
+		D0D9022B1BE0B26F00B3B445 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9022A1BE0B26F00B3B445 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D024B97C1BE066230011E381 /* ALRunloopWatchDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALRunloopWatchDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D024B9AA1BE07FC40011E381 /* ALRunLoopWatchdogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALRunLoopWatchdogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D024B9AD1BE07FC40011E381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D024B9AF1BE07FC40011E381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,16 +42,11 @@
 		D024B9D31BE080910011E381 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ALRunloopWatchDogDemo/RootViewController.m; sourceTree = SOURCE_ROOT; };
 		D0D902261BE0A36A00B3B445 /* ALRunLoopWatchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRunLoopWatchdog.h; sourceTree = "<group>"; };
 		D0D902271BE0A36A00B3B445 /* ALRunLoopWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRunLoopWatchdog.m; sourceTree = "<group>"; };
+		D0D902291BE0B26F00B3B445 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ALRunloopWatchDogDemo/SecondViewController.h; sourceTree = SOURCE_ROOT; };
+		D0D9022A1BE0B26F00B3B445 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ALRunloopWatchDogDemo/SecondViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D024B9791BE066230011E381 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D024B9A71BE07FC40011E381 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,7 +77,6 @@
 		D024B9611BE066230011E381 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D024B97C1BE066230011E381 /* ALRunloopWatchDogTests.xctest */,
 				D024B9AA1BE07FC40011E381 /* ALRunLoopWatchdogDemo.app */,
 				D024B9C51BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.xctest */,
 			);
@@ -96,6 +90,8 @@
 				D024B9B01BE07FC40011E381 /* AppDelegate.m */,
 				D024B9D21BE080910011E381 /* RootViewController.h */,
 				D024B9D31BE080910011E381 /* RootViewController.m */,
+				D0D902291BE0B26F00B3B445 /* SecondViewController.h */,
+				D0D9022A1BE0B26F00B3B445 /* SecondViewController.m */,
 				D024B9BB1BE07FC40011E381 /* Assets.xcassets */,
 				D024B9BD1BE07FC40011E381 /* LaunchScreen.storyboard */,
 				D024B9C01BE07FC40011E381 /* Info.plist */,
@@ -133,23 +129,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D024B97B1BE066230011E381 /* ALRunloopWatchDogTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D024B9881BE066230011E381 /* Build configuration list for PBXNativeTarget "ALRunloopWatchDogTests" */;
-			buildPhases = (
-				D024B9781BE066230011E381 /* Sources */,
-				D024B9791BE066230011E381 /* Frameworks */,
-				D024B97A1BE066230011E381 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ALRunloopWatchDogTests;
-			productName = ALRunloopWatchDogTests;
-			productReference = D024B97C1BE066230011E381 /* ALRunloopWatchDogTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D024B9A91BE07FC40011E381 /* ALRunLoopWatchdogDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D024B9D01BE07FC40011E381 /* Build configuration list for PBXNativeTarget "ALRunLoopWatchdogDemo" */;
@@ -194,10 +173,6 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Arien Lau";
 				TargetAttributes = {
-					D024B97B1BE066230011E381 = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = D024B95F1BE066230011E381;
-					};
 					D024B9A91BE07FC40011E381 = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -220,7 +195,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D024B97B1BE066230011E381 /* ALRunloopWatchDogTests */,
 				D024B9A91BE07FC40011E381 /* ALRunLoopWatchdogDemo */,
 				D024B9C41BE07FC40011E381 /* ALRunLoopWatchdogDemoTests */,
 			);
@@ -228,13 +202,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D024B97A1BE066230011E381 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D024B9A81BE07FC40011E381 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,17 +221,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D024B9781BE066230011E381 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D024B9A61BE07FC40011E381 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D9022B1BE0B26F00B3B445 /* SecondViewController.m in Sources */,
 				D024B9B11BE07FC40011E381 /* AppDelegate.m in Sources */,
 				D024B9AE1BE07FC40011E381 /* main.m in Sources */,
 				D024B9D41BE080910011E381 /* RootViewController.m in Sources */,
@@ -384,30 +345,6 @@
 			};
 			name = Release;
 		};
-		D024B9891BE066230011E381 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ALRunloopWatchDogTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wyblb.ALRunloopWatchDogTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALRunloopWatchDog.app/ALRunloopWatchDog";
-			};
-			name = Debug;
-		};
-		D024B98A1BE066230011E381 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ALRunloopWatchDogTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wyblb.ALRunloopWatchDogTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALRunloopWatchDog.app/ALRunloopWatchDog";
-			};
-			name = Release;
-		};
 		D024B9CC1BE07FC40011E381 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -464,15 +401,6 @@
 			buildConfigurations = (
 				D024B9831BE066230011E381 /* Debug */,
 				D024B9841BE066230011E381 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D024B9881BE066230011E381 /* Build configuration list for PBXNativeTarget "ALRunloopWatchDogTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D024B9891BE066230011E381 /* Debug */,
-				D024B98A1BE066230011E381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
