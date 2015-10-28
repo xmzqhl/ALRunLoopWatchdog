@@ -7,49 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D024B9811BE066230011E381 /* ALRunloopWatchDogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9801BE066230011E381 /* ALRunloopWatchDogTests.m */; };
-		D024B9961BE07CC50011E381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B98F1BE07CC50011E381 /* AppDelegate.m */; };
-		D024B9971BE07CC50011E381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D024B9901BE07CC50011E381 /* Assets.xcassets */; };
-		D024B9991BE07CC50011E381 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D024B9921BE07CC50011E381 /* Info.plist */; };
-		D024B99A1BE07CC50011E381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9931BE07CC50011E381 /* main.m */; };
-		D024B99B1BE07CC50011E381 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9951BE07CC50011E381 /* RootViewController.m */; };
-		D024B99E1BE07D080011E381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D024B99C1BE07D080011E381 /* LaunchScreen.storyboard */; };
+		D024B9AE1BE07FC40011E381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9AD1BE07FC40011E381 /* main.m */; };
+		D024B9B11BE07FC40011E381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9B01BE07FC40011E381 /* AppDelegate.m */; };
+		D024B9BC1BE07FC40011E381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D024B9BB1BE07FC40011E381 /* Assets.xcassets */; };
+		D024B9BF1BE07FC40011E381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D024B9BD1BE07FC40011E381 /* LaunchScreen.storyboard */; };
+		D024B9CA1BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9C91BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.m */; };
+		D024B9D41BE080910011E381 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9D31BE080910011E381 /* RootViewController.m */; };
+		D0D902281BE0A36A00B3B445 /* ALRunLoopWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D902271BE0A36A00B3B445 /* ALRunLoopWatchdog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D024B97D1BE066230011E381 /* PBXContainerItemProxy */ = {
+		D024B9C61BE07FC40011E381 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D024B9581BE066230011E381 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D024B95F1BE066230011E381;
-			remoteInfo = ALRunloopWatchDog;
+			remoteGlobalIDString = D024B9A91BE07FC40011E381;
+			remoteInfo = ALRunLoopWatchdogDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D024B9601BE066230011E381 /* ALRunloopWatchDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALRunloopWatchDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D024B97C1BE066230011E381 /* ALRunloopWatchDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALRunloopWatchDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D024B9801BE066230011E381 /* ALRunloopWatchDogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALRunloopWatchDogTests.m; sourceTree = "<group>"; };
-		D024B9821BE066230011E381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D024B98E1BE07CC50011E381 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ALRunloopWatchDogDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		D024B98F1BE07CC50011E381 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ALRunloopWatchDogDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		D024B9901BE07CC50011E381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ALRunloopWatchDogDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		D024B9921BE07CC50011E381 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ALRunloopWatchDogDemo/Info.plist; sourceTree = SOURCE_ROOT; };
-		D024B9931BE07CC50011E381 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ALRunloopWatchDogDemo/main.m; sourceTree = SOURCE_ROOT; };
-		D024B9941BE07CC50011E381 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ALRunloopWatchDogDemo/RootViewController.h; sourceTree = SOURCE_ROOT; };
-		D024B9951BE07CC50011E381 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ALRunloopWatchDogDemo/RootViewController.m; sourceTree = SOURCE_ROOT; };
-		D024B99D1BE07D080011E381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ALRunloopWatchDogDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		D024B9AA1BE07FC40011E381 /* ALRunLoopWatchdogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALRunLoopWatchdogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D024B9AD1BE07FC40011E381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D024B9AF1BE07FC40011E381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D024B9B01BE07FC40011E381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D024B9BB1BE07FC40011E381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D024B9BE1BE07FC40011E381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D024B9C01BE07FC40011E381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D024B9C51BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALRunLoopWatchdogDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D024B9C91BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALRunLoopWatchdogDemoTests.m; sourceTree = "<group>"; };
+		D024B9CB1BE07FC40011E381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D024B9D21BE080910011E381 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ALRunloopWatchDogDemo/RootViewController.h; sourceTree = SOURCE_ROOT; };
+		D024B9D31BE080910011E381 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ALRunloopWatchDogDemo/RootViewController.m; sourceTree = SOURCE_ROOT; };
+		D0D902261BE0A36A00B3B445 /* ALRunLoopWatchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRunLoopWatchdog.h; sourceTree = "<group>"; };
+		D0D902271BE0A36A00B3B445 /* ALRunLoopWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRunLoopWatchdog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D024B95D1BE066230011E381 /* Frameworks */ = {
+		D024B9791BE066230011E381 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D024B9791BE066230011E381 /* Frameworks */ = {
+		D024B9A71BE07FC40011E381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D024B9C21BE07FC40011E381 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,8 +72,9 @@
 		D024B9571BE066230011E381 = {
 			isa = PBXGroup;
 			children = (
-				D024B9621BE066230011E381 /* ALRunloopWatchDogDemo */,
-				D024B97F1BE066230011E381 /* ALRunloopWatchDogTests */,
+				D0D902251BE0A36A00B3B445 /* ALRunloopWatchDog */,
+				D024B9AB1BE07FC40011E381 /* ALRunLoopWatchdogDemo */,
+				D024B9C81BE07FC40011E381 /* ALRunLoopWatchdogDemoTests */,
 				D024B9611BE066230011E381 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,65 +82,57 @@
 		D024B9611BE066230011E381 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D024B9601BE066230011E381 /* ALRunloopWatchDog.app */,
 				D024B97C1BE066230011E381 /* ALRunloopWatchDogTests.xctest */,
+				D024B9AA1BE07FC40011E381 /* ALRunLoopWatchdogDemo.app */,
+				D024B9C51BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D024B9621BE066230011E381 /* ALRunloopWatchDogDemo */ = {
+		D024B9AB1BE07FC40011E381 /* ALRunLoopWatchdogDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D024B98E1BE07CC50011E381 /* AppDelegate.h */,
-				D024B98F1BE07CC50011E381 /* AppDelegate.m */,
-				D024B9901BE07CC50011E381 /* Assets.xcassets */,
-				D024B9941BE07CC50011E381 /* RootViewController.h */,
-				D024B9951BE07CC50011E381 /* RootViewController.m */,
-				D024B99C1BE07D080011E381 /* LaunchScreen.storyboard */,
-				D024B9631BE066230011E381 /* Supporting Files */,
+				D024B9AF1BE07FC40011E381 /* AppDelegate.h */,
+				D024B9B01BE07FC40011E381 /* AppDelegate.m */,
+				D024B9D21BE080910011E381 /* RootViewController.h */,
+				D024B9D31BE080910011E381 /* RootViewController.m */,
+				D024B9BB1BE07FC40011E381 /* Assets.xcassets */,
+				D024B9BD1BE07FC40011E381 /* LaunchScreen.storyboard */,
+				D024B9C01BE07FC40011E381 /* Info.plist */,
+				D024B9AC1BE07FC40011E381 /* Supporting Files */,
 			);
-			name = ALRunloopWatchDogDemo;
-			path = ALRunloopWatchDog;
+			path = ALRunLoopWatchdogDemo;
 			sourceTree = "<group>";
 		};
-		D024B9631BE066230011E381 /* Supporting Files */ = {
+		D024B9AC1BE07FC40011E381 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D024B9921BE07CC50011E381 /* Info.plist */,
-				D024B9931BE07CC50011E381 /* main.m */,
+				D024B9AD1BE07FC40011E381 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D024B97F1BE066230011E381 /* ALRunloopWatchDogTests */ = {
+		D024B9C81BE07FC40011E381 /* ALRunLoopWatchdogDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				D024B9801BE066230011E381 /* ALRunloopWatchDogTests.m */,
-				D024B9821BE066230011E381 /* Info.plist */,
+				D024B9C91BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.m */,
+				D024B9CB1BE07FC40011E381 /* Info.plist */,
 			);
-			path = ALRunloopWatchDogTests;
+			path = ALRunLoopWatchdogDemoTests;
+			sourceTree = "<group>";
+		};
+		D0D902251BE0A36A00B3B445 /* ALRunloopWatchDog */ = {
+			isa = PBXGroup;
+			children = (
+				D0D902261BE0A36A00B3B445 /* ALRunLoopWatchdog.h */,
+				D0D902271BE0A36A00B3B445 /* ALRunLoopWatchdog.m */,
+			);
+			path = ALRunloopWatchDog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D024B95F1BE066230011E381 /* ALRunloopWatchDog */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D024B9851BE066230011E381 /* Build configuration list for PBXNativeTarget "ALRunloopWatchDog" */;
-			buildPhases = (
-				D024B95C1BE066230011E381 /* Sources */,
-				D024B95D1BE066230011E381 /* Frameworks */,
-				D024B95E1BE066230011E381 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ALRunloopWatchDog;
-			productName = ALRunloopWatchDog;
-			productReference = D024B9601BE066230011E381 /* ALRunloopWatchDog.app */;
-			productType = "com.apple.product-type.application";
-		};
 		D024B97B1BE066230011E381 /* ALRunloopWatchDogTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D024B9881BE066230011E381 /* Build configuration list for PBXNativeTarget "ALRunloopWatchDogTests" */;
@@ -141,11 +144,45 @@
 			buildRules = (
 			);
 			dependencies = (
-				D024B97E1BE066230011E381 /* PBXTargetDependency */,
 			);
 			name = ALRunloopWatchDogTests;
 			productName = ALRunloopWatchDogTests;
 			productReference = D024B97C1BE066230011E381 /* ALRunloopWatchDogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D024B9A91BE07FC40011E381 /* ALRunLoopWatchdogDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D024B9D01BE07FC40011E381 /* Build configuration list for PBXNativeTarget "ALRunLoopWatchdogDemo" */;
+			buildPhases = (
+				D024B9A61BE07FC40011E381 /* Sources */,
+				D024B9A71BE07FC40011E381 /* Frameworks */,
+				D024B9A81BE07FC40011E381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALRunLoopWatchdogDemo;
+			productName = ALRunLoopWatchdogDemo;
+			productReference = D024B9AA1BE07FC40011E381 /* ALRunLoopWatchdogDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D024B9C41BE07FC40011E381 /* ALRunLoopWatchdogDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D024B9D11BE07FC40011E381 /* Build configuration list for PBXNativeTarget "ALRunLoopWatchdogDemoTests" */;
+			buildPhases = (
+				D024B9C11BE07FC40011E381 /* Sources */,
+				D024B9C21BE07FC40011E381 /* Frameworks */,
+				D024B9C31BE07FC40011E381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D024B9C71BE07FC40011E381 /* PBXTargetDependency */,
+			);
+			name = ALRunLoopWatchdogDemoTests;
+			productName = ALRunLoopWatchdogDemoTests;
+			productReference = D024B9C51BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -157,12 +194,16 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Arien Lau";
 				TargetAttributes = {
-					D024B95F1BE066230011E381 = {
-						CreatedOnToolsVersion = 7.1;
-					};
 					D024B97B1BE066230011E381 = {
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = D024B95F1BE066230011E381;
+					};
+					D024B9A91BE07FC40011E381 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D024B9C41BE07FC40011E381 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D024B9A91BE07FC40011E381;
 					};
 				};
 			};
@@ -179,24 +220,31 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D024B95F1BE066230011E381 /* ALRunloopWatchDog */,
 				D024B97B1BE066230011E381 /* ALRunloopWatchDogTests */,
+				D024B9A91BE07FC40011E381 /* ALRunLoopWatchdogDemo */,
+				D024B9C41BE07FC40011E381 /* ALRunLoopWatchdogDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D024B95E1BE066230011E381 /* Resources */ = {
+		D024B97A1BE066230011E381 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D024B99E1BE07D080011E381 /* LaunchScreen.storyboard in Resources */,
-				D024B9991BE07CC50011E381 /* Info.plist in Resources */,
-				D024B9971BE07CC50011E381 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D024B97A1BE066230011E381 /* Resources */ = {
+		D024B9A81BE07FC40011E381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D024B9BF1BE07FC40011E381 /* LaunchScreen.storyboard in Resources */,
+				D024B9BC1BE07FC40011E381 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D024B9C31BE07FC40011E381 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,39 +254,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D024B95C1BE066230011E381 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D024B9961BE07CC50011E381 /* AppDelegate.m in Sources */,
-				D024B99A1BE07CC50011E381 /* main.m in Sources */,
-				D024B99B1BE07CC50011E381 /* RootViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D024B9781BE066230011E381 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D024B9811BE066230011E381 /* ALRunloopWatchDogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D024B9A61BE07FC40011E381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D024B9B11BE07FC40011E381 /* AppDelegate.m in Sources */,
+				D024B9AE1BE07FC40011E381 /* main.m in Sources */,
+				D024B9D41BE080910011E381 /* RootViewController.m in Sources */,
+				D0D902281BE0A36A00B3B445 /* ALRunLoopWatchdog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D024B9C11BE07FC40011E381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D024B9CA1BE07FC40011E381 /* ALRunLoopWatchdogDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D024B97E1BE066230011E381 /* PBXTargetDependency */ = {
+		D024B9C71BE07FC40011E381 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D024B95F1BE066230011E381 /* ALRunloopWatchDog */;
-			targetProxy = D024B97D1BE066230011E381 /* PBXContainerItemProxy */;
+			target = D024B9A91BE07FC40011E381 /* ALRunLoopWatchdogDemo */;
+			targetProxy = D024B9C61BE07FC40011E381 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D024B99C1BE07D080011E381 /* LaunchScreen.storyboard */ = {
+		D024B9BD1BE07FC40011E381 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D024B99D1BE07D080011E381 /* Base */,
+				D024B9BE1BE07FC40011E381 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -328,30 +384,6 @@
 			};
 			name = Release;
 		};
-		D024B9861BE066230011E381 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(SRCROOT)/ALRunloopWatchDogDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wyblb.ALRunloopWatchDog;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		D024B9871BE066230011E381 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(SRCROOT)/ALRunloopWatchDogDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wyblb.ALRunloopWatchDog;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		D024B9891BE066230011E381 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -376,6 +408,54 @@
 			};
 			name = Release;
 		};
+		D024B9CC1BE07FC40011E381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ALRunLoopWatchdogDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyblb.ALRunLoopWatchdogDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D024B9CD1BE07FC40011E381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ALRunLoopWatchdogDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyblb.ALRunLoopWatchdogDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D024B9CE1BE07FC40011E381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ALRunLoopWatchdogDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyblb.ALRunLoopWatchdogDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALRunLoopWatchdogDemo.app/ALRunLoopWatchdogDemo";
+			};
+			name = Debug;
+		};
+		D024B9CF1BE07FC40011E381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ALRunLoopWatchdogDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyblb.ALRunLoopWatchdogDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALRunLoopWatchdogDemo.app/ALRunLoopWatchdogDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -388,20 +468,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D024B9851BE066230011E381 /* Build configuration list for PBXNativeTarget "ALRunloopWatchDog" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D024B9861BE066230011E381 /* Debug */,
-				D024B9871BE066230011E381 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D024B9881BE066230011E381 /* Build configuration list for PBXNativeTarget "ALRunloopWatchDogTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D024B9891BE066230011E381 /* Debug */,
 				D024B98A1BE066230011E381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D024B9D01BE07FC40011E381 /* Build configuration list for PBXNativeTarget "ALRunLoopWatchdogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D024B9CC1BE07FC40011E381 /* Debug */,
+				D024B9CD1BE07FC40011E381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D024B9D11BE07FC40011E381 /* Build configuration list for PBXNativeTarget "ALRunLoopWatchdogDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D024B9CE1BE07FC40011E381 /* Debug */,
+				D024B9CF1BE07FC40011E381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,9 +7,10 @@
 //
 
 #import "RootViewController.h"
+#import "ALRunLoopWatchdog.h"
 
 @interface RootViewController ()
-
+@property (nonatomic, strong) ALRunLoopWatchdog *watchdog;
 @end
 
 @implementation RootViewController
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.watchdog = [[ALRunLoopWatchdog alloc] initWithRunLoop:CFRunLoopGetCurrent() stallingThreshold:0.2];
+    [self.watchdog startWatchingMode:kCFRunLoopCommonModes];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSLog(@"%s", __FUNCTION__);
+    });
 }
 
 - (void)didReceiveMemoryWarning {

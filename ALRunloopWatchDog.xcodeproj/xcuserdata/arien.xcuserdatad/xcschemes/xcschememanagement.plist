@@ -4,10 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ALRunloopWatchDog.xcscheme</key>
+		<key>ALRunLoopWatchdogDemo.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +20,16 @@
 			<true/>
 		</dict>
 		<key>D024B97B1BE066230011E381</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D024B9A91BE07FC40011E381</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D024B9C41BE07FC40011E381</key>
 		<dict>
 			<key>primary</key>
 			<true/>

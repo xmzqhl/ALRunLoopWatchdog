@@ -1,6 +1,6 @@
 //
-//  ALRunloopWatchDogTests.m
-//  ALRunloopWatchDogTests
+//  ALRunLoopWatchdogDemoTests.m
+//  ALRunLoopWatchdogDemoTests
 //
 //  Created by Arien Lau on 15/10/28.
 //  Copyright © 2015年 Arien Lau. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ALRunloopWatchDogTests : XCTestCase
+@interface ALRunLoopWatchdogDemoTests : XCTestCase
 
 @end
 
-@implementation ALRunloopWatchDogTests
+@implementation ALRunLoopWatchdogDemoTests
 
 - (void)setUp {
     [super setUp];

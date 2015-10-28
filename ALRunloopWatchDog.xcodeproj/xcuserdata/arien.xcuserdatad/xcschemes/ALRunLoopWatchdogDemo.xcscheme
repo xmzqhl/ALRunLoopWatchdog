@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D024B95F1BE066230011E381"
-               BuildableName = "ALRunloopWatchDog.app"
-               BlueprintName = "ALRunloopWatchDog"
+               BlueprintIdentifier = "D024B9A91BE07FC40011E381"
+               BuildableName = "ALRunLoopWatchdogDemo.app"
+               BlueprintName = "ALRunLoopWatchdogDemo"
                ReferencedContainer = "container:ALRunloopWatchDog.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D024B97B1BE066230011E381"
-               BuildableName = "ALRunloopWatchDogTests.xctest"
-               BlueprintName = "ALRunloopWatchDogTests"
+               BlueprintIdentifier = "D024B9C41BE07FC40011E381"
+               BuildableName = "ALRunLoopWatchdogDemoTests.xctest"
+               BlueprintName = "ALRunLoopWatchdogDemoTests"
                ReferencedContainer = "container:ALRunloopWatchDog.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D024B95F1BE066230011E381"
-            BuildableName = "ALRunloopWatchDog.app"
-            BlueprintName = "ALRunloopWatchDog"
+            BlueprintIdentifier = "D024B9A91BE07FC40011E381"
+            BuildableName = "ALRunLoopWatchdogDemo.app"
+            BlueprintName = "ALRunLoopWatchdogDemo"
             ReferencedContainer = "container:ALRunloopWatchDog.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D024B95F1BE066230011E381"
-            BuildableName = "ALRunloopWatchDog.app"
-            BlueprintName = "ALRunloopWatchDog"
+            BlueprintIdentifier = "D024B9A91BE07FC40011E381"
+            BuildableName = "ALRunLoopWatchdogDemo.app"
+            BlueprintName = "ALRunLoopWatchdogDemo"
             ReferencedContainer = "container:ALRunloopWatchDog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -84,9 +84,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D024B95F1BE066230011E381"
-            BuildableName = "ALRunloopWatchDog.app"
-            BlueprintName = "ALRunloopWatchDog"
+            BlueprintIdentifier = "D024B9A91BE07FC40011E381"
+            BuildableName = "ALRunLoopWatchdogDemo.app"
+            BlueprintName = "ALRunLoopWatchdogDemo"
             ReferencedContainer = "container:ALRunloopWatchDog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
