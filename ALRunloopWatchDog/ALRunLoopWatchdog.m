@@ -13,11 +13,19 @@ static const NSTimeInterval ALRunLoopWatchdogDefaultStallingThreshold = 0.2;
 
 @interface ALRunLoopWatchdog ()
 
-@property (nonatomic, assign, readonly) CFRunLoopRef runLoop;
-@property (nonatomic, assign, readonly) CFRunLoopObserverRef observer;
-@property (nonatomic, assign, readonly) NSTimeInterval threshold;
+@property (nonatomic, assign, readonly) CFRunLoopRef runLoop; /**< the run loop object to watch*/
+@property (nonatomic, assign, readonly) CFRunLoopObserverRef observer; /**< the observer use to watch the run loop*/
+@property (nonatomic, assign, readonly) NSTimeInterval threshold; /**< the number of seconds that must pass to consider the run loop stalled*/
+/**
+ the mach_absolute_time() at which the current run loop iteration was started,or 0 if there is no current iteration in progress.
+ this property is not thread-safe, and must only be accessed from the thread that the run loop is associated with.
+ */
 @property (nonatomic, assign) uint64_t startTime;
 
+/**
+ invoked any time the run loop stall.
+ @param duration the number of seconds that elapsed in the run loop iteration.
+ */
 - (void)iterationStalledWithDuration:(NSTimeInterval)duration;
 
 @end
@@ -58,6 +66,7 @@ static const NSTimeInterval ALRunLoopWatchdogDefaultStallingThreshold = 0.2;
         _observer = CFRunLoopObserverCreateWithHandler(NULL, kCFRunLoopAllActivities, YES, INT_MIN, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity) {
             __strong typeof(weakSelf) strongSelf = weakSelf;
             switch (activity) {
+                //run loop 迭代循环是以下面的几种之一开始的
                 case kCFRunLoopEntry:
                 case kCFRunLoopBeforeTimers:
                 case kCFRunLoopAfterWaiting:
