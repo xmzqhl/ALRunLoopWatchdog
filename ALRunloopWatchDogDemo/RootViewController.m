@@ -23,6 +23,7 @@
     [self.watchdog startWatchingMode:kCFRunLoopCommonModes];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        sleep(3);
         NSLog(@"%s", __FUNCTION__);
     });
 }

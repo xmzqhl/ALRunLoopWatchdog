@@ -116,9 +116,8 @@ static const NSTimeInterval ALRunLoopWatchdogDefaultStallingThreshold = 0.2;
 #if DEBUG
     NSLog(@"%@:iteration of run loop %p took %.f ms to excute", self, self.runLoop, duration * 1000);
 #endif
-    void(^didStall)(NSTimeInterval) = self.didStallWithDuration;
-    if (didStall) {
-        didStall(duration);
+    if (self.didStallWithDuration) {
+        self.didStallWithDuration(duration);
     }
 }
 
