@@ -10,7 +10,7 @@
 #import "ALRunLoopWatchdog.h"
 
 @interface SecondViewController ()
-@property (nonatomic, strong) ALRunLoopWatchdog *watchdog;
+
 @end
 
 @implementation SecondViewController
@@ -23,15 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.watchdog = [[ALRunLoopWatchdog alloc] initWithRunLoop:CFRunLoopGetCurrent() stallingThreshold:0.2];
-    [self.watchdog startWatchingMode:kCFRunLoopDefaultMode];
-    self.watchdog.didStallWithDuration = ^(NSTimeInterval timeInterval) {
-        NSLog(@"%@", @(timeInterval));
-    };
-    
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         sleep(1);
-        NSLog(@"%s", __FUNCTION__);
     });
 
 }

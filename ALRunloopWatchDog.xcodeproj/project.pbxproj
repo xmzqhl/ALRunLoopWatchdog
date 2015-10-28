@@ -15,6 +15,7 @@
 		D024B9D41BE080910011E381 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9D31BE080910011E381 /* RootViewController.m */; };
 		D0D902281BE0A36A00B3B445 /* ALRunLoopWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D902271BE0A36A00B3B445 /* ALRunLoopWatchdog.m */; };
 		D0D9022B1BE0B26F00B3B445 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9022A1BE0B26F00B3B445 /* SecondViewController.m */; };
+		D0D902311BE0B86D00B3B445 /* ALRunLoopMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D902301BE0B86D00B3B445 /* ALRunLoopMonitoring.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		D0D902271BE0A36A00B3B445 /* ALRunLoopWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRunLoopWatchdog.m; sourceTree = "<group>"; };
 		D0D902291BE0B26F00B3B445 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ALRunloopWatchDogDemo/SecondViewController.h; sourceTree = SOURCE_ROOT; };
 		D0D9022A1BE0B26F00B3B445 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ALRunloopWatchDogDemo/SecondViewController.m; sourceTree = SOURCE_ROOT; };
+		D0D9022F1BE0B86D00B3B445 /* ALRunLoopMonitoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRunLoopMonitoring.h; sourceTree = "<group>"; };
+		D0D902301BE0B86D00B3B445 /* ALRunLoopMonitoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRunLoopMonitoring.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 			children = (
 				D0D902261BE0A36A00B3B445 /* ALRunLoopWatchdog.h */,
 				D0D902271BE0A36A00B3B445 /* ALRunLoopWatchdog.m */,
+				D0D9022F1BE0B86D00B3B445 /* ALRunLoopMonitoring.h */,
+				D0D902301BE0B86D00B3B445 /* ALRunLoopMonitoring.m */,
 			);
 			path = ALRunloopWatchDog;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D902311BE0B86D00B3B445 /* ALRunLoopMonitoring.m in Sources */,
 				D0D9022B1BE0B26F00B3B445 /* SecondViewController.m in Sources */,
 				D024B9B11BE07FC40011E381 /* AppDelegate.m in Sources */,
 				D024B9AE1BE07FC40011E381 /* main.m in Sources */,
