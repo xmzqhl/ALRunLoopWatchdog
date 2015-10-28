@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		D024B9651BE066230011E381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9641BE066230011E381 /* main.m */; };
 		D024B9681BE066230011E381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9671BE066230011E381 /* AppDelegate.m */; };
-		D024B96B1BE066230011E381 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B96A1BE066230011E381 /* MasterViewController.m */; };
-		D024B96E1BE066230011E381 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B96D1BE066230011E381 /* DetailViewController.m */; };
-		D024B9711BE066230011E381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D024B96F1BE066230011E381 /* Main.storyboard */; };
 		D024B9731BE066230011E381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D024B9721BE066230011E381 /* Assets.xcassets */; };
 		D024B9761BE066230011E381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D024B9741BE066230011E381 /* LaunchScreen.storyboard */; };
 		D024B9811BE066230011E381 /* ALRunloopWatchDogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B9801BE066230011E381 /* ALRunloopWatchDogTests.m */; };
+		D024B98D1BE0666E0011E381 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D024B98C1BE0666E0011E381 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,17 +30,14 @@
 		D024B9641BE066230011E381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D024B9661BE066230011E381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D024B9671BE066230011E381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D024B9691BE066230011E381 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		D024B96A1BE066230011E381 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		D024B96C1BE066230011E381 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		D024B96D1BE066230011E381 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		D024B9701BE066230011E381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D024B9721BE066230011E381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D024B9751BE066230011E381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D024B9771BE066230011E381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D024B97C1BE066230011E381 /* ALRunloopWatchDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALRunloopWatchDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D024B9801BE066230011E381 /* ALRunloopWatchDogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALRunloopWatchDogTests.m; sourceTree = "<group>"; };
 		D024B9821BE066230011E381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D024B98B1BE0666E0011E381 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D024B98C1BE0666E0011E381 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +81,8 @@
 			children = (
 				D024B9661BE066230011E381 /* AppDelegate.h */,
 				D024B9671BE066230011E381 /* AppDelegate.m */,
-				D024B9691BE066230011E381 /* MasterViewController.h */,
-				D024B96A1BE066230011E381 /* MasterViewController.m */,
-				D024B96C1BE066230011E381 /* DetailViewController.h */,
-				D024B96D1BE066230011E381 /* DetailViewController.m */,
-				D024B96F1BE066230011E381 /* Main.storyboard */,
+				D024B98B1BE0666E0011E381 /* RootViewController.h */,
+				D024B98C1BE0666E0011E381 /* RootViewController.m */,
 				D024B9721BE066230011E381 /* Assets.xcassets */,
 				D024B9741BE066230011E381 /* LaunchScreen.storyboard */,
 				D024B9771BE066230011E381 /* Info.plist */,
@@ -198,7 +190,6 @@
 			files = (
 				D024B9761BE066230011E381 /* LaunchScreen.storyboard in Resources */,
 				D024B9731BE066230011E381 /* Assets.xcassets in Resources */,
-				D024B9711BE066230011E381 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,9 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D024B9681BE066230011E381 /* AppDelegate.m in Sources */,
-				D024B96B1BE066230011E381 /* MasterViewController.m in Sources */,
 				D024B9651BE066230011E381 /* main.m in Sources */,
-				D024B96E1BE066230011E381 /* DetailViewController.m in Sources */,
+				D024B98D1BE0666E0011E381 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +232,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D024B96F1BE066230011E381 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D024B9701BE066230011E381 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D024B9741BE066230011E381 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALRunloopWatchDog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyblb.ALRunloopWatchDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALRunloopWatchDog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyblb.ALRunloopWatchDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
