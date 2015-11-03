@@ -67,16 +67,17 @@ static const NSTimeInterval ALRunLoopWatchdogDefaultStallingThreshold = 0.2;
             __strong typeof(weakSelf) strongSelf = weakSelf;
             switch (activity) {
                 //run loop 迭代循环是以下面的几种之一开始的
-                case kCFRunLoopEntry:
-                case kCFRunLoopBeforeTimers:
-                case kCFRunLoopAfterWaiting:
-                case kCFRunLoopBeforeSources:
+                case kCFRunLoopEntry: //即将进入loop
+                case kCFRunLoopBeforeTimers: // 即将处理timer
+                case kCFRunLoopAfterWaiting: // 刚从休眠中唤醒
+                case kCFRunLoopBeforeSources: //即将处理Source
                     if (strongSelf.startTime == 0) {
                         strongSelf.startTime = mach_absolute_time();
                     }
                     break;
-                case kCFRunLoopBeforeWaiting:
-                case kCFRunLoopExit: {
+                case kCFRunLoopBeforeWaiting: // 即将进入休眠
+                case kCFRunLoopExit: //即将退出loop
+                {
                     uint64_t endTime = mach_absolute_time();
                     if (strongSelf.startTime <= 0) {
                         break;
