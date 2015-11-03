@@ -16,6 +16,7 @@ static const NSTimeInterval ALRunLoopWatchdogDefaultStallingThreshold = 0.2;
 @property (nonatomic, assign, readonly) CFRunLoopRef runLoop; /**< the run loop object to watch*/
 @property (nonatomic, assign, readonly) CFRunLoopObserverRef observer; /**< the observer use to watch the run loop*/
 @property (nonatomic, assign, readonly) NSTimeInterval threshold; /**< the number of seconds that must pass to consider the run loop stalled*/
+
 /**
  the mach_absolute_time() at which the current run loop iteration was started,or 0 if there is no current iteration in progress.
  this property is not thread-safe, and must only be accessed from the thread that the run loop is associated with.
